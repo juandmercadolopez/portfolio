@@ -74,4 +74,12 @@ public class Portfolio {
 		this.title = title;
 	}
 
+	@Override
+	public String toString() {
+		return "Portfolio [idPortfolio=" + idPortfolio + ", description=" + description + ", imageUrl=" + imageUrl
+				+ ", twitterUserName=" + twitterUserName + ", title=" + title + "]";
+	}
+	
+	
+
 }
